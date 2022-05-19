@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 
 
@@ -9,7 +8,6 @@
 
     alert("Resultado: "+(number1 * number2))
 }
-=======
 dividir = () => {
   let num1 = parseInt(document.getElementById("numero1").value);
 
@@ -63,4 +61,3 @@ sumar=()=>{
     }
     
 }
->>>>>>> a5c8da6b1de5fadf2aa89df7dc86823dc5fe181a

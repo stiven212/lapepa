@@ -8,7 +8,22 @@
     <title>Multiplicaciones</title>
     <style>
         .inputContainer{
-            margin: 20;
+            height: 200px;
+            padding: 20px;
+        }
+        .inputs{
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .button{
+            position: relative;
+            left: 40px;
+            border-radius: 10px;
+            background-color:cornflowerblue;
+            color:aliceblue;
+            font-weight: bold;
+            border-color: none;
         }
     </style>
 </head>
@@ -18,11 +33,11 @@
     </div>
     <div class="inputContainer">
         <h1>Multiplicacion de dos numeros</h1>
-        <input type="text" placeholder="Ingrese un numero" id="numero-1">
-        <br>
-        <input  type="text" placeholder="Ingrese un segundo numero" id="numero-2">
-        <br>
-        <button type="submit" onclick="multiplicar();">Resultado</button>
+        <label for="nombre">Numero 1:</label><br>
+        <input class="inputs" type="text" placeholder="Ingrese un numero" id="numero-1"><br>
+        <label for="nombre">Numero 2:</label><br>
+        <input class="inputs" type="text" placeholder="Ingrese un numero" id="numero-2"><br>
+        <button class="button" type="submit" onclick="multiplicar();">Resultado</button>
     </div>
 </body>
 </html>
