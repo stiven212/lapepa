@@ -1,7 +1,8 @@
 dividir = () => {
-  let num1 = parseInt(document.getElementById("numero1").value);
 
- let num2 = parseInt(document.getElementById("numero2").value);
+ 
+ let num1 = document.getElementById("numero1").value;
+ let num2 = document.getElementById("numero2").value;
 
   let dividir = num1 / num2;
 
