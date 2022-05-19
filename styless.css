@@ -1,0 +1,28 @@
+
+
+p {color:rgb(17, 71, 116);
+    margin-left: 100px; 
+}
+
+h1{
+    justify-content:center;
+    align-content: center;
+    margin-left: 125px;
+
+}
+
+input{
+    margin-left: 100px; 
+}
+
+.boton{
+    
+background-color: rgb(223, 124, 218);
+border-color: aliceblue;
+border-radius: 10px;
+color: aliceblue;
+width: 100px;
+height: 40px;
+
+
+}
