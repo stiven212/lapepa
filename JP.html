@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./operaciones.js"></script>
+    <title>Multiplicaciones</title>
+    <style>
+        .inputContainer{
+            height: 200px;
+            padding: 20px;
+        }
+        .inputs{
+            margin-bottom: 10px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .button{
+            position: relative;
+            left: 40px;
+            border-radius: 10px;
+            background-color:cornflowerblue;
+            color:aliceblue;
+            font-weight: bold;
+            border-color: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="imageContainer">
+        <img width="580" height="300" src="https://ichef.bbci.co.uk/news/800/cpsprodpb/3F6A/production/_109143261_mensaje.jpg.webp">
+    </div>
+    <div class="inputContainer">
+        <h1>Multiplicacion de dos numeros</h1>
+        <label for="nombre">Numero 1:</label><br>
+        <input class="inputs" type="text" placeholder="Ingrese un numero" id="numero-1"><br>
+        <label for="nombre">Numero 2:</label><br>
+        <input class="inputs" type="text" placeholder="Ingrese un numero" id="numero-2"><br>
+        <button class="button" type="submit" onclick="multiplicar();">Resultado</button>
+    </div>
+</body>
+</html>

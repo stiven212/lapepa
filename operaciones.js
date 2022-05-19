@@ -1,3 +1,13 @@
+
+
+
+
+ multiplicar = () => {
+    let number1 = parseFloat(document.getElementById("numero-1").value)
+    let number2 = parseFloat(document.getElementById("numero-2").value)
+
+    alert("Resultado: "+(number1 * number2))
+}
 dividir = () => {
   let num1 = document.getElementById("numero1").value;
   let num2 = document.getElementById("numero2").value;
@@ -6,6 +16,10 @@ dividir = () => {
 
   alert(dividir);
 };
+
+
+
+
 
 slc = () => {
   //    alert("formulario trabajando")
@@ -32,13 +46,36 @@ sumar = () => {
   let b = document.getElementById("val2").value;
   /*console.log(a);
     console.log(b);*/
-  if (!a || !b) {
-    alert("Ingrese ambos valores");
-  } else {
-    let x = parseFloat(a);
-    let y = parseFloat(b);
-    let res = x + y;
-    //console.log(res+"");
-    alert("El resultado es: " + res);
-  }
-};
+    if(!a || !b){
+        alert("Ingrese ambos valores");
+    } else {
+        let x = parseFloat(a);
+        let y = parseFloat(b);
+        let res = x+y;
+        //console.log(res+"");
+        alert("El resultado es: "+res);
+    }
+    
+    alert(numero1+ numero2)
+
+
+
+}
+ejecutar = (fnOperacion) => {
+    let caja1 = document.getElementById("txtValor1");
+    let caja2 = document.getElementById("txtValor2");
+
+    let max = parseInt(caja1.value);
+    let duk = parseInt(caja2.value);
+
+    fnOperacion(max, duk);
+
+}
+
+restar = (a, b) => {
+
+
+    let resultado = a - b;
+
+    alert("el resultado es:" + resultado);
+}
